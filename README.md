@@ -1,8 +1,8 @@
-# Mac Fulfillment Services 🚀
+# CyberNexus LLC 🚀
 
-Welcome to **Mac Fulfillment Services**, your trusted provider for refurbished laptops and cybersecurity gadgets. We specialize in offering high-quality products from top brands like HP, Lenovo, Dell, and MacBook, backed by our comprehensive warranty and exceptional customer support.
+Welcome to **CyberNexus LLC**, your trusted provider for refurbished laptops and cybersecurity gadgets. We specialize in offering high-quality products from top brands like HP, Lenovo, Dell, and MacBook, backed by our comprehensive warranty and exceptional customer support.
 
-![Mac Fulfillment Services Banner](path-to-banner-image)
+![CyberNexus LLC Banner](path-to-banner-image)
 
 ## Features ✨
 
@@ -11,6 +11,7 @@ Welcome to **Mac Fulfillment Services**, your trusted provider for refurbished l
 - **Warranty Support**: Comprehensive warranty and repair services.
 - **Easy Contact**: Reach out to us anytime with our user-friendly contact form.
 - **Testimonial Slider**: Hear from our satisfied customers.
+- **Repair Services**: Efficient repair process with online status tracking.
 
 ## Technologies Used 🛠️
 
@@ -25,8 +26,8 @@ Welcome to **Mac Fulfillment Services**, your trusted provider for refurbished l
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/yourusername/mac-fulfillment-services.git
-   cd mac-fulfillment-services
+   git clone https://github.com/yourusername/cybernexus-llc.git
+   cd cybernexus-llc
    ```
 
 2. **Install dependencies**
@@ -48,7 +49,15 @@ Welcome to **Mac Fulfillment Services**, your trusted provider for refurbished l
 
 ## Usage 🖥️
 
-After installing, navigate to [http://localhost:3000](http://localhost:3000) to view the application in your browser. You can explore the Home page, Warranty terms, and contact us through the navigation bar.
+After installing, navigate to [http://localhost:5173](http://localhost:5173) to view the application in your browser. You can explore the Home page, Warranty terms, start a repair ticket, and contact us through the navigation bar.
+
+## Features 🌟
+
+- **Home Page**: Showcases our services and products.
+- **Warranty Page**: Detailed information about our warranty terms.
+- **Repair Services**: Easy-to-use repair ticket system with step-by-step guidance.
+- **Contact Form**: Quick and efficient way to reach out to us.
+- **Testimonials**: Slider featuring feedback from our satisfied customers.
 
 ## Contributing 🤝
 

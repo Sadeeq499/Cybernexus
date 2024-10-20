@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         primary: "#1A78BE",
+        secondary: "#1c75bc",
+        tertiary: "#00aeef",
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
