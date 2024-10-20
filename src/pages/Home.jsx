@@ -130,7 +130,7 @@ export default function Home() {
             <div className="space-y-16">
               <div className="flex items-center">
                 <div className="w-1/3">
-                  <FaWrench size={100} className="mx-auto text-secondary" />
+                  <FaWrench size={100} className="mx-auto " />
                 </div>
                 <div className="w-2/3">
                   <h3 className="text-xl font-semibold mb-2 font-poppins">
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
               <div className="flex items-center flex-row-reverse">
                 <div className="w-1/3">
-                  <FaTruck size={150} className="mx-auto text-secondary" />
+                  <FaTruck size={150} className="mx-auto " />
                 </div>
                 <div className="w-2/3 text-start max-w-sm">
                   <h3 className="text-xl font-semibold mb-2 font-poppins">
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="w-1/3">
                   <FaCheckCircle
                     size={100}
-                    className="mx-auto text-secondary"
+                    className="mx-auto "
                   />
                 </div>
                 <div className="w-2/3">
@@ -186,7 +186,7 @@ export default function Home() {
         </section>
 
         {/* Testimonial Slider */}
-        <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20">
+        <section className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-10 font-poppins">
               What People Say About Us
@@ -233,7 +233,7 @@ export default function Home() {
         {/* Contact Form */}
         <section
           id="contact-section"
-          className="py-20 bg-gradient-to-r from-blue-100 to-blue-200"
+          className="py-20 "
         >
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-10 font-poppins">
@@ -247,7 +247,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your name"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -257,7 +258,8 @@ export default function Home() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your email address"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -267,7 +269,8 @@ export default function Home() {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your phone number"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -277,7 +280,8 @@ export default function Home() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="What would you like to tell us?"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 ></textarea>
               </div>
               <button
@@ -317,10 +321,11 @@ export default function Home() {
         {/* Repair Form */}
         <section
           id="repair-form-section"
-          className="py-20 bg-gradient-to-r from-blue-200 to-blue-300 shadow-md"
+          className="py-20 "
         >
-          <div className="container mx-auto px-4 shadow-lg pb-10">
-            <h2 className="text-3xl font-bold text-center mb-10 font-poppins">
+          <div className={"p-10 pb-0 shadow-lg bg-[#f7f7f7] container px-0 mx-auto  rounded-md" }>
+          <div className="container mx-auto px-4 shadow-lg pb-10 bg-white max-w-4xl rounded-md">
+            <h2 className="text-3xl font-bold text-center mb-10 pt-10 font-poppins ">
               Contact Information
             </h2>
             <form className="max-w-lg mx-auto" onSubmit={handleRepairSubmit}>
@@ -331,7 +336,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="firstName"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your first name"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -341,7 +347,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="lastName"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your last name"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -354,7 +361,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="businessName"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your business name"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -364,7 +372,8 @@ export default function Home() {
                 <input
                   type="email"
                   id="repairEmail"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your email address"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -374,7 +383,8 @@ export default function Home() {
                 <input
                   type="tel"
                   id="mobile"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your mobile number"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -384,7 +394,9 @@ export default function Home() {
                 <input
                   type="tel"
                   id="repairPhone"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your phone number"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
+
                 />
               </div>
               <div className="mb-4">
@@ -394,7 +406,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="address"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your address"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -404,7 +417,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="city"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your city"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -414,7 +428,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="state"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your state/province"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <div className="mb-4">
@@ -424,7 +439,8 @@ export default function Home() {
                 <input
                   type="text"
                   id="zipCode"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-secondary"
+                  placeholder="Enter your zip/postal code"
+                  className="w-full px-3 py-2 border rounded focus:ring-2 focus:ring-secondary border-gray-400"
                 />
               </div>
               <button
@@ -442,8 +458,10 @@ export default function Home() {
                 )}
               </button>
             </form>
-            <section className=" my-20 py-4 bg-gradient-to-r from-secondary to-tertiary text-white">
-              <div className=" text-center">
+        
+          </div>
+          <section className="mt-20 !w-full py-4 bg-gradient-to-r from-secondary to-tertiary text-white">
+              <div className="text-center">
                 <p>
                   CyberNexus LLC – 5010 Breckenridge Drive, Houston, Texas 77066
                 </p>
