@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-scroll";
 // styling
 import {
   FaLaptop,
@@ -103,12 +104,22 @@ export default function Home() {
                 to contact us if you have any questions!
               </p>
               <div className="space-x-4">
-                <button className="bg-white text-blue-700 px-6 py-2 rounded hover:bg-gray-100 transition">
+                <Link
+                  to="contact-section"
+                  smooth={true}
+                  duration={500}
+                  className="bg-white text-blue-700 px-6 py-2 rounded hover:bg-gray-100 transition cursor-pointer inline-block"
+                >
                   Contact Us
-                </button>
-                <button className="border border-white text-white px-6 py-2 rounded hover:bg-white hover:text-secondary transition">
+                </Link>
+                <Link
+                  to="repair-section"
+                  smooth={true}
+                  duration={500}
+                  className="border border-white text-white px-6 py-2 rounded hover:bg-white hover:text-secondary transition cursor-pointer inline-block"
+                >
                   Repairs
-                </button>
+                </Link>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
